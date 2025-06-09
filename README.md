@@ -36,6 +36,7 @@ This project uses **Vite** for fast development.
 npm install # Install dependencies
 npm run dev # Start local development server
 ```
+
 ---
 
 ### ⚙️ Build for Production
@@ -43,6 +44,7 @@ npm run dev # Start local development server
 npm run build    # Create optimized production files
 npm run preview  # Preview the final result
 ```
+
 ---
 
 ## 🧠 Notes
@@ -55,6 +57,7 @@ Fonts and some visual assets are embedded directly via index.css.
 
 Folder asset/Image/ is ready for client image insertion.
 ```
+
 ---
 
 ## 📦 .gitignore Recommendation
@@ -73,13 +76,9 @@ Thumbs.db
 ❌ Do not redistribute or resell the template as-is.
 ✅ Modify and adapt for your own portfolio or client work.
 
----
-
 💡 Credits
 Template by Worksy Studio
 Images used are for demonstration purposes only.
-
----
 
 📩 Support
 For questions or support, feel free to reach out via your purchase platform.
