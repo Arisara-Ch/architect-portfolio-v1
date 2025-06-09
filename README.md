@@ -36,6 +36,7 @@ This project uses **Vite** for fast development.
 npm install # Install dependencies
 npm run dev # Start local development server
 ```
+
 ---
 
 ### ⚙️ Build for Production
@@ -43,18 +44,17 @@ npm run dev # Start local development server
 npm run build    # Create optimized production files
 npm run preview  # Preview the final result
 ```
+
 ---
 
 ## 🧠 Notes
 ```
 main.js now includes working smooth scroll behavior for in-page navigation (e.g., "View Works" button).
-
 You can add more JavaScript features in main.js as needed.
-
 Fonts and some visual assets are embedded directly via index.css.
-
 Folder asset/Image/ is ready for client image insertion.
 ```
+
 ---
 
 ## 📦 .gitignore Recommendation
@@ -75,18 +75,28 @@ Thumbs.db
 ✅ Modify and adapt for your own portfolio or client work.
 ```
 
+<<<<<<< HEAD
 ---
 
+=======
+>>>>>>> a0ba28270c0c27a58daca9ff2eee941e8a93134b
 ## 💡 Credits
 ```
 Template by Worksy Studio
 Images used are for demonstration purposes only.
 ```
 
+<<<<<<< HEAD
 ---
 
+=======
+>>>>>>> a0ba28270c0c27a58daca9ff2eee941e8a93134b
 ## 📩 Support
 ```
 For questions or support, feel free to reach out via your purchase platform.
 Thank you for supporting independent creators! 🙏
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> a0ba28270c0c27a58daca9ff2eee941e8a93134b
