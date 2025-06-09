@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Portfolio by John Doe</title>
+
+    <!-- SEO & Metadata -->
+    <meta
+      name="description"
+      content="Portfolio website of architect John Doe. Showcasing modern and sustainable architectural projects."
+    />
+    <meta
+      name="keywords"
+      content="architecture, portfolio, sustainable design, John Doe"
+    />
+    <meta name="author" content="John Doe" />
+
+    <!-- Social Media -->
+    <meta property="og:title" content="Portfolio by John Doe" />
+    <meta
+      property="og:description"
+      content="Showcasing architectural projects by John Doe."
+    />
+    <meta property="og:image" content="src-asset-Image/og.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body class="bg-[#f3f1eb] min-h-screen flex flex-col">
+    <div class="flex-grow">
+      <!-- HERO SECTION -->
+      <div class="relative w-full overflow-hidden">
+        <!-- Hero Image -->
+        <img
+          src="asset/Image/Hero.png"
+          alt="Hero Image: Modern house exterior at night"
+          class="w-full h-[30vh] sm:h-[40vh] xl:h-[50vh] object-cover block"
+        />
+
+        <!-- Hero Text & Button -->
+        <div
+          class="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4"
+        >
+          <h1 class="text-3xl sm:text-4xl font-normal leading-tight">
+            Portfolio by
+          </h1>
+          <h2 class="text-3xl sm:text-4xl font-normal leading-tight mt-1">
+            John Doe
+          </h2>
+          <button
+            id="viewWorksBtn"
+            class="mt-6 bg-black bg-opacity-80 rounded-full px-6 py-2 text-xs sm:text-sm font-semibold tracking-wide cursor-pointer"
+          >
+            VIEW WORKS
+          </button>
+
+          <!-- Logo -->
+          <div class="absolute top-4 left-4 z-20">
+            <div class="logo-font">John</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT ME -->
+      <section
+        class="bg-[#f3f1eb] px-6 sm:px-12 py-8 sm:py-12 flex flex-col sm:flex-row gap-8 sm:gap-12"
+      >
+        <!-- Profile Image -->
+        <div class="flex-shrink-0 w-40 sm:w-48">
+          <img
+            src="asset/Image/Profile.png"
+            alt="Portrait of John Doe"
+            class="w-full h-auto object-cover rounded-xl"
+            height="192"
+            width="192"
+          />
+        </div>
+
+        <!-- Profile Content -->
+        <div class="flex-1">
+          <h3 class="font-bold text-sm sm:text-base mb-2">ABOUT ME</h3>
+          <p class="text-xs sm:text-sm max-w-xl leading-relaxed mb-6">
+            An architect who believes in sustainable and minimal design,
+            focusing on functionality and harmony with nature.
+          </p>
+
+          <!-- Profile Details -->
+          <div
+            class="flex flex-col sm:flex-row sm:space-x-12 text-xs sm:text-sm font-semibold text-black max-w-xl"
+          >
+            <div class="mb-4 sm:mb-0">
+              <p class="uppercase">EDUCATION</p>
+              <p class="mt-1 font-normal">
+                B.Arch, Harvard GSD<br />2015 - 2020
+              </p>
+            </div>
+            <div class="mb-4 sm:mb-0">
+              <p class="uppercase">EXPERIENCE</p>
+              <p class="mt-1 font-normal">5 years</p>
+            </div>
+            <div>
+              <p class="uppercase">SKILLS</p>
+              <p class="mt-1 font-normal leading-tight">
+                AutoCAD, Revit, SketchUp, Lumion<br />
+                Adobe Photoshop, InDesign<br />
+                Sustainable Design, 3D Modeling
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects-section" class="px-6 sm:px-12 pb-12">
+        <h3 class="font-bold text-base sm:text-lg mb-4">PROJECTS</h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-x-6 gap-y-6 max-w-full">
+          <!-- Project 1 -->
+          <div>
+            <a
+              href="asset/Image/Modern-Residence.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="asset/Image/Modern-Residence.png"
+                alt="Modern Residence exterior"
+                class="project-image transition-transform duration-300 hover:scale-105"
+              />
+            </a>
+            <h4 class="mt-2 font-normal text-sm sm:text-base">
+              Modern Residence
+            </h4>
+            <p class="text-xs sm:text-sm">2023</p>
+          </div>
+
+          <!-- Project 2 -->
+          <div>
+            <a
+              href="asset/Image/Community-Center.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="asset/Image/Community-Center.png"
+                alt="Community Center structure"
+                class="project-image transition-transform duration-300 hover:scale-105"
+              />
+            </a>
+            <h4 class="mt-2 font-normal text-sm sm:text-base">
+              Community Center
+            </h4>
+            <p class="text-xs sm:text-sm">2022</p>
+          </div>
+
+          <!-- Project 3 -->
+          <div>
+            <a
+              href="asset/Image/Beach-House.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="asset/Image/Beach-House.png"
+                alt="Beach House exterior"
+                class="project-image transition-transform duration-300 hover:scale-105"
+              />
+            </a>
+            <h4 class="mt-2 font-normal text-sm sm:text-base">Beach House</h4>
+            <p class="text-xs sm:text-sm">2021</p>
+          </div>
+
+          <!-- Project 4 -->
+          <div>
+            <a
+              href="asset/Image/Office-Building.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="asset/Image/Office-Building.png"
+                alt="Office Building exterior"
+                class="project-image transition-transform duration-300 hover:scale-105"
+              />
+            </a>
+            <h4 class="mt-2 font-normal text-sm sm:text-base">
+              Office Building
+            </h4>
+            <p class="text-xs sm:text-sm">2023</p>
+          </div>
+
+          <!-- Project 5 -->
+          <div>
+            <a
+              href="asset/Image/Retail-Complex.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="asset/Image/Retail-Complex.png"
+                alt="Retail Complex modern design"
+                class="project-image transition-transform duration-300 hover:scale-105"
+              />
+            </a>
+            <h4 class="mt-2 font-normal text-sm sm:text-base">
+              Retail Complex
+            </h4>
+            <p class="text-xs sm:text-sm">2022</p>
+          </div>
+
+          <!-- Project 6 -->
+          <div>
+            <a
+              href="asset/Image/Mountain-Cabin.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="asset/Image/Mountain-Cabin.png"
+                alt="Mountain Cabin exterior"
+                class="project-image transition-transform duration-300 hover:scale-105"
+              />
+            </a>
+            <h4 class="mt-2 font-normal text-sm sm:text-base">
+              Mountain Cabin
+            </h4>
+            <p class="text-xs sm:text-sm">2021</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- 🔷 FOOTER -->
+    <footer
+      class="bg-[#d7d0c3] w-full px-6 py-6 text-sm sm:text-base font-semibold text-black"
+    >
+      <div class="max-w-6xl mx-auto flex flex-col gap-2 sm:gap-3">
+        <div class="flex items-center gap-2">
+          <span>CONTACT:</span>
+          <a
+            href="mailto:contact@example.com"
+            class="hover:underline font-normal"
+            >Get in touch</a
+          >
+        </div>
+        <div class="flex items-center gap-2">
+          <span>LinkedIn:</span>
+          <a
+            href="https://www.linkedin.com/in/johndoe/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:underline font-normal text-black"
+          >
+            https://www.linkedin.com/in/johndoe/
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

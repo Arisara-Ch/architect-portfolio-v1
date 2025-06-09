@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: auto;
+}
+
+.logo-font {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  color: white;
+  text-shadow: none;
+}
+
+.hero-image {
+  width: 100vw;
+  max-width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  display: block;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+@media (min-width: 640px) {
+  .hero-image {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-image {
+    height: 60vh;
+  }
+}
