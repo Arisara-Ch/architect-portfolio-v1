@@ -50,11 +50,8 @@ npm run preview  # Preview the final result
 ## 🧠 Notes
 ```
 main.js now includes working smooth scroll behavior for in-page navigation (e.g., "View Works" button).
-
 You can add more JavaScript features in main.js as needed.
-
 Fonts and some visual assets are embedded directly via index.css.
-
 Folder asset/Image/ is ready for client image insertion.
 ```
 
