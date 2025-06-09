@@ -71,15 +71,21 @@ Thumbs.db
 
 ---
 
-💼 Licensing & Usage
+## 💼 Licensing & Usage
+```
 ✅ Use for personal or commercial projects.
 ❌ Do not redistribute or resell the template as-is.
 ✅ Modify and adapt for your own portfolio or client work.
+```
 
-💡 Credits
+## 💡 Credits
+```
 Template by Worksy Studio
 Images used are for demonstration purposes only.
+```
 
-📩 Support
+## 📩 Support
+```
 For questions or support, feel free to reach out via your purchase platform.
 Thank you for supporting independent creators! 🙏
+```
