@@ -89,5 +89,5 @@ Images used are for demonstration purposes only.
 ```
 For questions or support, feel free to reach out via your purchase platform.
 Thank you for supporting independent creators! 🙏
-<<<<<<< HEAD
+
 ```
