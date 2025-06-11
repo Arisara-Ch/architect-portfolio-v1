@@ -9,7 +9,7 @@ Built with **HTML**, **Tailwind CSS**, and **Vite** for fast development and dep
 ---
 
 ## 📁 Project Structure
-
+```
  ├── asset/         # Project images 
  │ └── Image/       # All images (hero, projects, etc.)
  ├── .gitignore     # Files/folders excluded from Git
