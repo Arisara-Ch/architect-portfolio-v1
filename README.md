@@ -75,7 +75,6 @@ Thumbs.db
 ✅ Modify and adapt for your own portfolio or client work.
 ```
 
-<<<<<<< HEAD
 ---
 
 ## 💡 Credits
@@ -84,7 +83,6 @@ Template by Worksy Studio
 Images used are for demonstration purposes only.
 ```
 
-<<<<<<< HEAD
 ---
 
 ## 📩 Support
