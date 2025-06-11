@@ -35,11 +35,12 @@ Just open `index.html` directly in your browser to preview the website.
 
 ---
 
-## 🚀 Getting Started
-```
+## 👩‍💻 For Developers
+
+This template is built using **Vite** for lightning-fast development.
+
 ### 📦 1. Run Locally (Development Mode)
 
-This project uses **Vite** for fast development.  
 ```
 npm install # Install dependencies
 npm run dev # Start local development server
@@ -48,6 +49,9 @@ npm run dev # Start local development server
 ---
 
 ### ⚙️ Build for Production
+
+🛠️ The `main.js` file includes smooth scrolling logic. You can expand it to add features like image sliders, modals, etc.
+
 ```
 npm run build    # Create optimized production files
 npm run preview  # Preview the final result
@@ -57,10 +61,10 @@ npm run preview  # Preview the final result
 
 ## 🧠 Notes
 ```
-main.js now includes working smooth scroll behavior for in-page navigation (e.g., "View Works" button).
-You can add more JavaScript features in main.js as needed.
-Fonts and some visual assets are embedded directly via index.css.
-Folder asset/Image/ is ready for client image insertion.
+• main.js now includes working smooth scroll behavior for in-page navigation (e.g., "View Works" button).
+• You can add more JavaScript features in main.js as needed.
+• Fonts and some visual assets are embedded directly via index.css.
+• Folder public/asset/Image/ is ready for client image insertion.
 ```
 
 ---
