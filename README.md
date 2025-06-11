@@ -78,8 +78,6 @@ Thumbs.db
 <<<<<<< HEAD
 ---
 
-=======
->>>>>>> a0ba28270c0c27a58daca9ff2eee941e8a93134b
 ## 💡 Credits
 ```
 Template by Worksy Studio
@@ -89,14 +87,9 @@ Images used are for demonstration purposes only.
 <<<<<<< HEAD
 ---
 
-=======
->>>>>>> a0ba28270c0c27a58daca9ff2eee941e8a93134b
 ## 📩 Support
 ```
 For questions or support, feel free to reach out via your purchase platform.
 Thank you for supporting independent creators! 🙏
 <<<<<<< HEAD
 ```
-=======
-```
->>>>>>> a0ba28270c0c27a58daca9ff2eee941e8a93134b
