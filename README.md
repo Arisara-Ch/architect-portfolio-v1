@@ -25,7 +25,8 @@ Built with **HTML**, **Tailwind CSS**, and **Vite** for fast development and dep
 
 ## 👤 For General Users (Non-Developers)
 ```
-### 🌐 Live View (No Setup Needed)
+---
+### 🌐 Live Preview (No Setup Needed)
 
 Just open `index.html` directly in your browser to preview the website.  
 *All assets are embedded, and <code>no</code> build step is required for basic usage.*
