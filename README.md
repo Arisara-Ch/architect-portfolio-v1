@@ -9,7 +9,7 @@ Built with **HTML**, **Tailwind CSS**, and **Vite** for fast development and dep
 ---
 
 ## 📁 Project Structure
-```
+
  ├── asset/         # Project images 
  │ └── Image/       # All images (hero, projects, etc.)
  ├── .gitignore     # Files/folders excluded from Git
@@ -24,8 +24,8 @@ Built with **HTML**, **Tailwind CSS**, and **Vite** for fast development and dep
 ---
 
 ## 👤 For General Users (Non-Developers)
-```
-## 🌐 Live View (No Setup Needed)
+
+### 🌐 Live View (No Setup Needed)
 ```
 Just open `index.html` directly in your browser to preview the website.  
 *All assets are embedded, and <code>no</code> build step is required for basic usage.*
